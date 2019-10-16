@@ -1,8 +1,4 @@
-bin/
-obj*/
-*.vsp
-*.suo
-*.user
-*~
-packages/
 .vs/
+bin/
+obj/
+*.user

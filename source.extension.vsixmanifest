@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="DisableMouseWheelZoom.NoahRichardst.fb70c64a-15d3-4384-ad2d-8e83a8bfd897" Version="1.5" Language="en-US" Publisher="Noah Richards" />
-    <DisplayName>Disable Mouse Wheel Zoom</DisplayName>
-    <Description xml:space="preserve">Disables zooming with the ctrl+mouse wheel gesture.</Description>
-    <License>ms-pl.txt</License>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Version="[12.0,)" Id="Microsoft.VisualStudio.Community" />
-  </Installation>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
-  </Assets>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0.26606.0,17.0)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
+    <Metadata>
+        <Identity Id="DisableMouseWheelZoom.2e9202e3-ca8b-44f9-9655-a9b9e4580a04" Version="2.0" Language="en-US" Publisher="reduckted" />
+        <DisplayName>Disable Mouse Wheel Zoom for Visual Studio 2019</DisplayName>
+        <Description xml:space="preserve">Disables zooming with the Ctrl + Mouse Wheel gesture.</Description>
+        <MoreInfo>https://github.com/reduckted/DisableMouseWheelZoom</MoreInfo>
+        <License>LICENSE</License>
+        <Icon>Preview.png</Icon>
+        <PreviewImage>Preview.png</PreviewImage>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
 </PackageManifest>

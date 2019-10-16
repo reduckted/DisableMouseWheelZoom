@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableMouseWheelZoom", "DisableMouseWheelZoom.csproj", "{CAECD2A5-3FE2-413B-B1D5-55A46ED763B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableMouseWheelZoom", "DisableMouseWheelZoom.csproj", "{9E12D191-94FA-4888-A31E-2604C2ADABC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CAECD2A5-3FE2-413B-B1D5-55A46ED763B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAECD2A5-3FE2-413B-B1D5-55A46ED763B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAECD2A5-3FE2-413B-B1D5-55A46ED763B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAECD2A5-3FE2-413B-B1D5-55A46ED763B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E12D191-94FA-4888-A31E-2604C2ADABC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E12D191-94FA-4888-A31E-2604C2ADABC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E12D191-94FA-4888-A31E-2604C2ADABC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E12D191-94FA-4888-A31E-2604C2ADABC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0890CAC8-B17E-4BDC-A5AE-1D464A42149C}
 	EndGlobalSection
 EndGlobal
